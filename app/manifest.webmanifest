@@ -1,0 +1,11 @@
+{
+  "_copyright": "Copyright (c) 2026 Dinesh Suresh, MIT License",
+  "name": "SplitPay QR",
+  "short_name": "SplitPay",
+  "description": "Private, browser-only UPI collection helper.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#6366f1",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

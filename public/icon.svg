@@ -1,0 +1,13 @@
+<!--
+  SplitPay QR - Supplies a simple installable application icon.
+  Author: Dinesh Suresh
+  Copyright (c) 2026 Dinesh Suresh
+  SPDX-License-Identifier: MIT
+  Licensed under the MIT License (see the LICENSE file in the project root).
+  This file may be copied and reused freely, provided this notice is kept.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SplitPay QR">
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect width="512" height="512" rx="116" fill="url(#a)"/>
+  <path fill="#fff" d="M126 126h112v112H126zm148 0h112v112H274zM126 274h112v112H126zm148 0h40v40h-40zm72 0h40v112h-40zm-72 72h40v40h-40z"/>
+</svg>

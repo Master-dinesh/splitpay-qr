@@ -1,0 +1,52 @@
+{
+  "name": "splitpay-qr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A private, browser-only UPI collection helper.",
+  "author": "Dinesh Suresh",
+  "copyright": "Copyright (c) 2026 Dinesh Suresh, MIT License",
+  "license": "MIT",
+  "packageManager": "npm@12.0.2",
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=12"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "framer-motion": "^13.4.0",
+    "html-to-image": "^1.11.13",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.47.0",
+    "next": "^16.3.5",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^24.13.6",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^30.1.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.1"
+  },
+  "allowScripts": {
+    "core-js": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_copyright": "Copyright (c) 2026 Dinesh Suresh, MIT License",
+  "thresholdRupees": 2000,
+  "mdrPercent": 0.4,
+  "capRupees": 300,
+  "flatCategoryFeeRupees": 5,
+  "effectiveFrom": "2026-10-15",
+  "sourceUrl": "https://www.npci.org.in/what-we-do/upi/product-overview"
+}
