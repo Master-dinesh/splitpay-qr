@@ -8,7 +8,7 @@
  */
 export const en = {
   brand: "SplitPay QR",
-  headline: "Collect big payments smartly.",
+  headline: "Collect with clarity.",
   privacy: "Nothing leaves your device.",
   generate: "Generate payment request"
 } as const;

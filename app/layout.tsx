@@ -13,12 +13,12 @@ import "@fontsource-variable/jetbrains-mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SplitPay QR | Collect big payments smartly",
-  description: "Generate private UPI payment QR codes or share bank details, entirely in your browser.",
+  title: "SplitPay QR | Private UPI payment requests",
+  description: "Create a private UPI QR or share bank details. Fee figures are illustrative estimates; actual charges depend on your bank or payment provider.",
   authors: [{ name: "Dinesh Suresh" }],
   metadataBase: new URL("https://splitpay-qr.example"),
   alternates: { canonical: "/" },
-  openGraph: { title: "SplitPay QR", description: "Private, browser-only UPI collection helper.", type: "website" },
+  openGraph: { title: "SplitPay QR | Private UPI payment requests", description: "Private QR and bank-slip helper with illustrative fee estimates.", type: "website" },
   manifest: "/manifest.webmanifest"
 };
 export const viewport: Viewport = { themeColor: "#0b1020", colorScheme: "light dark" };

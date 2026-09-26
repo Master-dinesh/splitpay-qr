@@ -56,7 +56,7 @@ export default function PaymentPage() {
           <QrCard link={upiLink} name={request.name} vpa={request.vpa} paise={request.amountPaise} index={1} total={1} />
         </div>
         <a className="button primary mt-5 w-full" href={upiLink}><ArrowUpRight size={18} />Open in UPI app</a>
-        <p className="muted mt-4 flex items-start justify-center gap-2 text-center text-xs"><ShieldCheck size={16} className="shrink-0" />Review the recipient and amount in your UPI app before paying. This page does not verify payment.</p>
+        <p className="muted mt-4 flex items-start justify-center gap-2 text-center text-xs"><ShieldCheck size={16} className="shrink-0" />This link adds no separate fee. Check the recipient, amount, and any charges shown in your UPI app. This page does not verify payment.</p>
       </section>}
     </div>
   </main>;
