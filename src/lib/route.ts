@@ -10,7 +10,7 @@ import type { FeeOptions } from "./fees";
 
 export type Route = "single-qr" | "bank-transfer" | "split-qr";
 export type RouteRecommendation = { route: Route; reason: string; estimatedSavingPaise: number };
-export const maxPerQrPaise = 10_000_000;
+export const maxPerQrPaise = 199_900;
 
 export function recommendRoute(amountPaise: number, hasBankDetails: boolean, options: FeeOptions = {}, qrLimitPaise = maxPerQrPaise): RouteRecommendation {
   if (amountPaise <= qrLimitPaise) return { route: "single-qr", reason: "One QR is the simplest way for this amount.", estimatedSavingPaise: 0 };

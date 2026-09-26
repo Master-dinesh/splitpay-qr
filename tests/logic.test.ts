@@ -19,10 +19,11 @@ describe("exact payment splitting", () => {
   it("keeps ₹1,999 as one QR and splits ₹2,000", () => { expect(splitAmount(199_900, 199_900).parts).toHaveLength(1); expect(splitAmount(200_000, 199_900).parts).toHaveLength(2); });
 });
 describe("payment route boundary", () => {
-  it("uses one QR at the limit and recommends bank details above it when available", () => {
+  it("uses one QR through ₹1,999 and splits larger requests when bank details are unavailable", () => {
+    expect(maxPerQrPaise).toBe(199_900);
     expect(recommendRoute(maxPerQrPaise, false).route).toBe("single-qr");
-    expect(recommendRoute(maxPerQrPaise + 1, true).route).toBe("bank-transfer");
-    expect(recommendRoute(maxPerQrPaise + 1, false).route).toBe("split-qr");
+    expect(recommendRoute(200_000, false).route).toBe("split-qr");
+    expect(recommendRoute(200_000, true).route).toBe("bank-transfer");
   });
 });
 describe("fee estimate", () => {
